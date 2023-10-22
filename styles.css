@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+label, input {
+    margin: 5px;
+}
+
+#result {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.yellow-bg {
+    background-color: yellow;
+}
+
+.green-bg {
+    background-color: green;
+}
