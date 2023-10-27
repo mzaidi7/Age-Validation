@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
@@ -25,4 +28,23 @@ label, input {
 
 .green-bg {
     background-color: green;
+}
+div.main{
+    background-color: #D2B48C;
+    width: 80%;
+    height: 80%;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#typewriter {
+    color: rgb(0, 0, 0);
+    font-family: "Courier New", monospace;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 10px;
 }

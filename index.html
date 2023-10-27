@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <div class="main">
     <title>Age Validation Form</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Age Validation Form</h1>
+    <h1 id="typewriter"></h1>
     <form id="ageForm" onsubmit="return validateAge()">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
@@ -16,8 +17,8 @@
 
         <button type="submit">Submit</button>
     </form>
-
     <div id="result"></div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
